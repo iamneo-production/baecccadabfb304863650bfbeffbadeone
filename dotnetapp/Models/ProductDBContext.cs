@@ -9,7 +9,7 @@ public partial class ProductDBContext : DbContext
     {
 
     }
-    public DbSet<Product> Products {get; set;}
+    public DbSet<Product> Product {get; set;}
     
     protected override void OnModelCreating(ModelBuilder modelBuilder)
 {
