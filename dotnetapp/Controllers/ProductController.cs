@@ -27,14 +27,14 @@ namespace dotnetapp.Controllers
         return productService.GetProductList();
     }
 
-    public bool AddProduct(Product newProduct)
-    {         
-       return false;            
-    }   
+  //   public bool AddProduct(Product newProduct)
+  //   {         
+  //      return false;            
+  //   }   
 
-    public bool DeleteProduct (int id)
-    {
-   return false; 
-    }
+  //   public bool DeleteProduct (int id)
+  //   {
+  //  return false; 
+  //   }
     }
 }
