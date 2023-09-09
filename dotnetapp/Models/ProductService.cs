@@ -20,7 +20,7 @@ namespace dotnetapp.Models
         }
         public IQueryable<Product> GetProductList()
         {
-           return (IQueryable<Product>)_dbContext.Product.ToList();
+           return _dbContext.Product;
         }
         public bool AddProduct(Product product)
         {
